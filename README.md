@@ -33,95 +33,69 @@ Here is a quick progress snapshot:
 | 041–050    | 🔄 In progress |
 | 051–100    | ⏳ Planned     |
 
-I started uploading my work to GitHub from Day 45 onward, and I am now adding previous days (1–44) as well.
+A structured collection of all projects completed during the 100 Days of Python course by Dr. Angela Yu.  
+Projects are grouped in 10-day segments for clean navigation.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Groups
 
-Each day of the course has its own folder:
+### Days 001–010 — Python Basics  
+Folder → [`days_001-010`](days_001-010/)  
+Topics: fundamentals, loops, functions, simple projects.
 
-```text
-day_001/
-day_002/
-...
-day_045/
-day_046/
-...
-day_100/
-````
+### Days 011–020 — Intermediate Python  
+Folder → [`days_011-020`](days_011-020/)  
+Topics: OOP basics, file handling, list/dict comprehension, mail merge.
 
-Inside each folder you may find:
+### Days 021–030 — Games & GUI Apps  
+Folder → [`days_021-030`](days_021-030/)  
+Projects:  
+- Snake Game  
+- Pong  
+- Turtle Crossing  
+- Password Manager (Tkinter)  
+- Pomodoro Timer  
 
-* Python files for that day’s project
-* Supporting files (data, text files, etc.)
-* A project-specific README (for larger projects)
+### Days 031–040 — APIs & Automation  
+Folder → [`days_031-040`](days_031-040/)  
+Projects:  
+- Flash Card App  
+- Birthday Wisher  
+- ISS Overhead Notifier  
+- Weather SMS Alerts  
+- Stock News Alert  
+- Habit Tracker (Google Sheets API)  
+Notes added for Days 39–40 (outdated APIs).
 
----
-
-### 📝 Example (Day 45 – Web Scraping)
-
-```text
-day_045/
-  main.py
-  ordered_list.txt
-  README.md
-```
-
-This project scraped data from a website using **BeautifulSoup**, processed it, and saved it into a text file.
-
----
-
-## 🧠 Daily Workflow
-
-For each day of the challenge, I try to:
-
-1. Complete the lesson for that day
-2. Build the project using Python
-3. Test and refine the code
-4. Add the files into the correct `day_0xx` folder
-5. Commit with a descriptive message
-6. Push to GitHub to maintain a public learning trail
-
-Example commit message:
-
-```text
-Day 45: Web scraping project using BeautifulSoup
-```
+### Days 041–050 — Web Foundations + Python Apps  
+Folder → [`days_041-050`](days_041-050/)  
+Topics: HTML/CSS basics + Python mini projects.
 
 ---
 
-## 🎯 Goals for This Repository
+## ⭐ Highlighted Projects
 
-* Build a strong, consistent Python foundation
-* Improve Git and GitHub skills through real practice
-* Track progress toward backend + systems engineering roles
-* Develop a portfolio of real, working Python projects
-* Cultivate discipline through daily coding
-
----
-
-## 🔭 Next Steps
-
-* Upload past days (1–44)
-* Complete Days 46–100
-* Start backend frameworks (Django / FastAPI)
-* Begin deeper systems engineering courses (CS50, Nand2Tetris, CMU-213, etc.)
-* Build portfolio-ready backend projects
+- Snake Game (OOP) — game loop, collision detection  
+- Password Manager GUI — Tkinter, password generation, local storage  
+- Weather Alert SMS — API requests + Twilio messaging  
+- Stock News Alert — financial data + news API  
+- Habit Tracker — CRUD operations via Google Sheets API  
 
 ---
 
-## 🛠 Tools & Technologies
+## ▶️ How to Run Projects
 
-* Python 3.x
-* BeautifulSoup (web scraping)
-* Git & GitHub
-* Windows environment
-* (More tools will be added as I progress through the roadmap)
+Run inside each project folder:
 
----
+bash
+python main.py
 
-## ✨ Final Note
+
+If the project requires packages:
+pip install -r requirements.txt
+
+
 
 This repository is a core part of my long-term **software engineering roadmap**.
 It represents consistent effort, real projects, and the discipline required to build a strong engineering career.
